@@ -58,6 +58,10 @@
         top: 30%;
         text-align: center;
     }
+    a {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
     @keyframes zoo {
         0% {
             left: 0%;
@@ -114,6 +118,8 @@
             </div>
         </div>
         <a>Download</a>
+        <div>This is just a very simple and basic application for ZooKeeper.</div>
+        <div>You can give me any advice and correction via <i><a href="mailto:yufengmaster@gmail.com">yufengmaster@gmail.com</a></i>.</div>
     </div>
 </body>
 <script>
@@ -144,7 +150,7 @@
             }
             if (cnt == 2) {
                 clearInterval(handle);
-                document.querySelector("a").href = "";
+                document.querySelector("a").href = "zoo_explorer-1.0.1.jar";
             }
         }, 150);
     }
